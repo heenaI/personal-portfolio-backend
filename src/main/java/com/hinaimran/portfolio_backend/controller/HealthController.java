@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HealthController {
 
+    @GetMapping("/home")
+    public String home() {
+        return "Hello from Spring Boot!";
+    }
+
     @GetMapping("/health")
     public ResponseEntity<String> healthCheck() {
         return ResponseEntity.ok("Backend is running!");
