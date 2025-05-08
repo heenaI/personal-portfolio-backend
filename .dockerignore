@@ -1,0 +1,22 @@
+# Maven-related
+target/
+.idea/
+*.iml
+*.log
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build/CI
+.vscode/
+*.swp
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
